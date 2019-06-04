@@ -1,0 +1,86 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent
+}
+
+b {
+    font-weight: 400
+}
+
+em,
+i {
+    font-style: normal
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+img {
+    -webkit-touch-callout: none
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+body {
+    max-width: 960px;
+    min-width: 300px;
+    margin: auto;
+    width: 100%;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 13px;
+    color: #3f3f3f;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+}
+
+input,
+textarea {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent
+}
+input[type=checkbox] {
+    -webkit-appearance: checkbox;
+    appearance: checkbox
+}
+.red {
+    color: #ED3A26;
+}
+.green {
+    color: #2ecc71;
+}
+.black{
+    color: #212121;
+}
+.yellow {
+    color: #ECAC17;
+}
+
+.blue {
+    color: #64B6FB;
+}
+
+.purple {
+    color: #4b3887;
+}
+
+.grey{
+    color: #888888;
+}
